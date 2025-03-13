@@ -10,6 +10,6 @@
 
 3. Generated .gitignore using an online gitignore genrator.
 
-4. made a folder structure using this [video](https://www.youtube.com/watch?v=9B4CvtzXRpc&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&index=7).
+4. Made a folder structure using this [video](https://www.youtube.com/watch?v=9B4CvtzXRpc&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&index=7).
 
-5. 
+5. Connected to database using mongoDB atlas. Pushed the code to GitHub as well.
