@@ -13,3 +13,9 @@
 4. Made a folder structure using this [video](https://www.youtube.com/watch?v=9B4CvtzXRpc&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&index=7).
 
 5. Connected to database using mongoDB atlas. Pushed the code to GitHub as well.
+
+6. wrote some utilities that i will use throughout the code like apiError, ApiResponse and AsyncHandler.
+
+7. went on to write the first models, i.e. user and repo model. I have deviated a bit from the original model diagram, although i have not removed any fields from the model I have added some more like default branch, size and stats of the repo in repo model. Also added avatar field to user model.
+
+8. Installed the bcrypt package and used it to firstly hash the password before saving it in backend and secondly made a function to check whether password in backend is same as password entered by the user later. so far so good !
