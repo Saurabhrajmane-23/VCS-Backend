@@ -20,8 +20,10 @@ app.use(cookieParser())
 
 // routes import
 import userRouter from "./routes/user.route.js";
+import repoRouter from "./routes/repo.route.js";
 
 //routes decleration
 app.use("/api/v1/users", userRouter);
+app.use("/api/v1/repos", repoRouter);
 
 export default app;
