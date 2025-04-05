@@ -47,7 +47,13 @@ const createRepository = asyncHandler(async(req, res) => {
 
 })
 
-export {createRepository};
+const getRepositories = asyncHandler(async(req, res) => {
+   const repositories = await Repository.find({owner: req.user._id}).select("-owner");
+   return res.status(200).json(new ApiResponse(200, repositories, "Repositories fetched successfully"));
+})
+
+
+export {createRepository, getRepositories};
 
 
 
